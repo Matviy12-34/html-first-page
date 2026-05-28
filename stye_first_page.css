@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #f3f7ff;
+    color: #222;
+}
+
+header {
+    background: linear-gradient(135deg, #2563eb, #1fef6b );
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav{
+    background: #111827;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+
+}
+nav a:hover{
+    color: #22c55e;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 251px 1fr 250px;
+    gap: 20px;
+    padding: 25px;
+}
+
+.left-side,
+.right-side,
+.content{
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.left-side ul{
+    list-style: none;
+}
+
+.left-side li{
+    background: #e0edff;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.left-side li:hover{
+    background: #bfdbfe;
+}
+
+.hero{
+    background: linear-gradient(135deg, #dbeafe, #dcfce7);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.hero h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
